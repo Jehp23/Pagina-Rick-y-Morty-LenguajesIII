@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+
+  <!-- Fuente personalizada -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+
+  <!-- Navbar fijo -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand" href="#">Rick & Morty</a>
+      <div>
+        <a class="nav-link d-inline text-light" href="#personajes">Personajes</a>
+        <a class="nav-link d-inline text-light" href="#episodios">Episodios</a>
+        <a class="nav-link d-inline text-light" href="#mapa">Mapa</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado con carrusel -->
+  <header class="container mt-5 pt-5">
+    <h1 class="text-center">Rick and Morty</h1>
+
+    <div id="rickMortyCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/imagenram1.jpg" class="d-block w-100" alt="Rick 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagenram2.jpg" class="d-block w-100" alt="Rick 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagenram3.jpg" class="d-block w-100" alt="Rick 3">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#rickMortyCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#rickMortyCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Secciones principales -->
+  <main class="container mt-5">
+
+    <section id="personajes" class="section mb-5">
+      <h2 class="text-center mb-4">👤 Personajes</h2>
+      <p class="text-center text-muted">(Acá vas a poder ver a Rick, Morty y todos sus amigos interdimensionales... ¡pronto!)</p>
+    </section>
+
+    <section id="episodios" class="section mb-5">
+      <h2 class="text-center mb-4">🎬 Episodios</h2>
+      <p class="text-center text-muted">(Listado de los mejores episodios, con descripciones y locura... próximamente)</p>
+    </section>
+
+    <section id="mapa" class="section mb-5">
+      <h2 class="text-center mb-4">🌌 Mapa Interdimensional</h2>
+      <p class="text-center text-muted">(Acá habrá una vista del multiverso... solo para viajeros interdimensionales)</p>
+    </section>
+
+  </main>
+
+  <footer class="footer mt-5">
+    <p>&copy; 2025 Rick and Morty Fan Page. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  scroll-behavior: smooth;
+  padding-top: 70px;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: #00ffcc;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 3px solid #00ffcc;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #00ffcc;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #66ffe0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* 🔥 Secciones vacías estilizadas */
+.section {
+  background: linear-gradient(135deg, #1a1a1a, #222);
+  color: white;
+  padding: 40px 30px;
+  margin: 40px 0;
+  border-left: 5px solid #00ffcc;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: scale(1.01);
+}
+
+.section h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  color: #00ffcc;
+  text-shadow: 2px 2px #000;
+}
+
+.section p {
+  font-style: italic;
+  color: #ccc;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  border-top: 3px solid #00ffcc;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #00ffcc;
+  text-shadow: 2px 2px 5px #000;
+}
